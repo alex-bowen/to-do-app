@@ -13,17 +13,20 @@ h1 {
     text-align: center;
 }
 body {
-    background-color: black;
+    background-color: #0F0A0A;
+    background-image: url("../images/lashes-dark.png")
 }
 
 .main-div {
     margin: auto;
     margin-top: 20px;
     width: 60%;
-    border: 7px solid #4B88A2;
+    border: 7px solid #2292A4;
     border-radius: 2px;
     padding: 10px;
     background-color: rgb(182, 183, 189);
+    box-shadow: 5px 5px #BDBF09;
+
 }
 
 .app {
@@ -32,7 +35,7 @@ body {
 
 .to-do-container {
     min-height: 450px;
-    background: #FFF9FB;
+    background: #F5EFED;
     font-size: 20px;
     font-family: "Lucida Console", Monaco, monospace;
     padding: 10px;
@@ -49,7 +52,7 @@ body {
     padding: 5px;
     width: 100%;
     border: 0px;
-    background: #4B88A2;
+    background: #2292A4;
     color: white;
     border-radius: 2px;
     margin-top: 10px;
@@ -59,18 +62,18 @@ body {
 }
 
 .submit-button:hover {
-    background-color: #b90303;
+    background-color: #D96C06;
 
 }
 button:hover {
-    background-color: #b90303;
+    background-color: #D96C06;
 }
 
 .checkbox {
     width: 20px;
     height: 20px;
     border: 0px;
-    background: #4B88A2;
+    background: #2292A4;
     color: white;
     border-radius: 2px;
     margin-right: 5px;
@@ -79,7 +82,7 @@ button:hover {
 
 .list-item {
     padding: 10px;
-    border: 1px #FFF9FB solid;
+    border: 1px #F5EFED solid;
     margin-bottom: 10px;
     background-color: rgb(223, 223, 223);
     margin-right: 5px;
